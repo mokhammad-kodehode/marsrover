@@ -8,7 +8,7 @@ async function getData(url) {
   return data;
 }
 
-// creating function with 3 parameter to show info.
+// creating function with 5 parameter to show info.
 
 function displayData(photoUrl, title, description, status, containerId) {
   const container = document.getElementById(containerId);
